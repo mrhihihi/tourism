@@ -8,12 +8,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   padding: 25px;
   position: fixed;
   top: 0;
   width: 100%;
   background: white;
   color: black;
+}
+
+.navbar img{
+  width: 40px;
 }
 
 .nav-right {
@@ -30,7 +35,8 @@
 }
 
 .hero {
-  background: url("../images/losangeles.jpg");
+  /* background: url("../images/losangeles.jpg"); */
+  background: url("../images/pexels-asadphoto-1450340.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -63,7 +69,9 @@
 }
 
 .hero-buttons :first-child {
-  background: rgba(226, 188, 20, 0.836);
+  /* background: rgba(226, 188, 20, 0.836); */
+  /* background: #4e8ad4; */
+  background: #1f7ef2;
   border: none;
   padding: 15px 45px;
   color: white;
@@ -124,14 +132,16 @@
   padding: 15px 20px;
   color: white;
   font-weight: 600;
-  background: rgb(116,92,249);
+  background: #1f7ef2;
   border: none;
 }
 
 
 .paralax{
-  background: url("../images/image.png");
+  /* background: url("../images/image.png"); */
+  background: url("../images/pexels-pixabay-261101.jpg");
   background-size: cover;
+  background-attachment: fixed;
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -153,7 +163,7 @@
 .paralax button{
   padding: 12px 49px;
   border: none;
-  background: rgb(116,92,249);
+  background: #1f7ef2;
   color: white;
   font-weight: 700;
   font-size: 13px;
@@ -194,7 +204,7 @@
 .options button{
   padding: 12px 49px;
   border: none;
-  background: rgb(116,92,249);
+  background: #1f7ef2;
   color: white;
   font-weight: 700;
   font-size: 13px;
@@ -233,10 +243,58 @@
 
 .grid-img-container{
   display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto auto auto auto;
+  grid-template-rows: repeat(3,300px);
+  grid-template-columns: repeat(4,337px);
+  background-color: rgb(14,16,21);
 }
 
-.item{
-  border: 1px solid black;
+.item1{
+  background: url("../images/haley.jpg");
+  background-size: cover;
+}
+
+.item2{
+  background: url("../images/losangeles.jpg");
+  background-size: cover;
+}
+
+.item3{
+  background: url("../images/spenser.jpg");
+  background-size: cover;
+}
+
+.item4{
+  background: url("../images/tirachard.jpg");
+  background-size: cover;
+}
+
+.item5{
+  background: url("../images/pexels-alessio-cesario-975080-1906879.jpg");
+  background-size: cover;
+}
+
+.item6{
+  background: url("../images/pexels-belle-co-99483-402028.jpg");
+  background-size: cover;
+
+}
+
+.item7{
+  background: url("../images/pexels-fmaderebner-238622.jpg");
+  background-size: cover;
+}
+
+.item8{
+  background:url("../images/pexels-julieaagaard-1374064.jpg");
+  background-size: cover;
+}
+
+.item9{
+  background: url("../images/pexels-ninauhlikova-725255.jpg");
+  background-size: cover;
+}
+
+.item10{
+  background: url("../images/pexels-pixabay-220769.jpg");
+  background-size: cover;
 }

@@ -1,13 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   padding: 25px;
   position: fixed;
@@ -53,6 +54,10 @@
   background: rgba(0, 0, 0, 0.3);
 }
 
+.hero-overlay h1{
+  font-size: 3.5rem;
+}
+
 .hero h1 {
   font-size: 3rem;
   color: white;
@@ -71,7 +76,7 @@
 .hero-buttons :first-child {
   /* background: rgba(226, 188, 20, 0.836); */
   /* background: #4e8ad4; */
-  background: #1f7ef2;
+  background: #745cf9;
   border: none;
   padding: 15px 45px;
   color: white;
@@ -91,6 +96,7 @@
 .img-section img{
   
   width: 570px;
+  
   
 }
 
@@ -132,14 +138,14 @@
   padding: 15px 20px;
   color: white;
   font-weight: 600;
-  background: #1f7ef2;
+  background: #745cf9;
   border: none;
 }
 
 
 .paralax{
   /* background: url("../images/image.png"); */
-  background: url("../images/pexels-pixabay-261101.jpg");
+  background: url("../images/pexels-pixabay-206359.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 50vh;
@@ -163,7 +169,7 @@
 .paralax button{
   padding: 12px 49px;
   border: none;
-  background: #1f7ef2;
+  background: #745cf9;
   color: white;
   font-weight: 700;
   font-size: 13px;
@@ -204,7 +210,7 @@
 .options button{
   padding: 12px 49px;
   border: none;
-  background: #1f7ef2;
+  background: #745cf9;
   color: white;
   font-weight: 700;
   font-size: 13px;
@@ -296,5 +302,15 @@
 
 .item10{
   background: url("../images/pexels-pixabay-220769.jpg");
+  background-size: cover;
+}
+
+.item11{
+  background: url("../images/pexels-david-bartus-43782-586687.jpg");
+  background-size: cover;
+}
+
+.item12{
+  background: url("../images/pexels-julius-silver-240301-753339.jpg");
   background-size: cover;
 }
